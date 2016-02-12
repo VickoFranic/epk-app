@@ -37,9 +37,14 @@ class EpkController extends Controller
 
         //VALIDATOR NAPRAVITI
         if(!isset($band['bio'])) {
-            $band['bio'] = 'Nema biografije';
+            $band['bio'] = 'Nema upisane biografije.';
         }
-
+        if(!isset($band['genre'])) {
+            $band['genre'] = '';
+        }
+        if(!isset($band['members'])) {
+            $band['members'] = 'Nema upisanih članova benda.';
+        }
 
     	$this->band = $band;
    		$this->storeBand($band);

@@ -1,9 +1,9 @@
 @import "node_modules/bootstrap-sass/assets/stylesheets/bootstrap";
-@import url(https://fonts.googleapis.com/css?family=Slabo+27px&subset=latin,latin-ext);
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,300&subset=latin,latin-ext);
 
 
 body {
-    font-family: 'Slabo 27px', serif;
+    font-family: 'Raleway', sans-serif;
 }
 
 #main {
@@ -62,10 +62,12 @@ body {
 
 .featurette-image.pull-left {
     margin-right: 40px;
+    max-width: 50%;
 }
 
 .featurette-image.pull-right {
     margin-left: 40px;
+    max-width: 50%;
 }
 
 .featurette-heading {
@@ -121,10 +123,12 @@ footer {
 
     .featurette-image.pull-left {
         margin-right: 10px;
+        max-width: 80%;
     }
 
     .featurette-image.pull-right {
         margin-left: 10px;
+        max-width: 80%;
     }
 
     .featurette-heading {
@@ -143,6 +147,12 @@ footer {
 
     .featurette-heading {
         font-size: 25px;
+    }
+    .featurette-image.pull-left {
+        max-width: 100%;
+    }
+    .featurette-image.pull-right {
+        max-width: 100%;
     }
 }
 

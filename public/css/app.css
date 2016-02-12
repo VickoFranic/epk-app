@@ -5,7 +5,7 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
 /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
-@import url(https://fonts.googleapis.com/css?family=Slabo+27px&subset=latin,latin-ext);
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,300&subset=latin,latin-ext);
 html {
   font-family: sans-serif;
   -ms-text-size-adjust: 100%;
@@ -5755,7 +5755,7 @@ button.close {
     display: none !important; } }
 
 body {
-  font-family: 'Slabo 27px', serif; }
+  font-family: 'Raleway', sans-serif; }
 
 #main {
   background-color: #3498db;
@@ -5803,10 +5803,12 @@ body {
   overflow: hidden; }
 
 .featurette-image.pull-left {
-  margin-right: 40px; }
+  margin-right: 40px;
+  max-width: 50%; }
 
 .featurette-image.pull-right {
-  margin-left: 40px; }
+  margin-left: 40px;
+  max-width: 50%; }
 
 .featurette-heading {
   font-size: 50px; }
@@ -5838,9 +5840,11 @@ footer {
   .featurette-image {
     max-width: 50%; }
   .featurette-image.pull-left {
-    margin-right: 10px; }
+    margin-right: 10px;
+    max-width: 80%; }
   .featurette-image.pull-right {
-    margin-left: 10px; }
+    margin-left: 10px;
+    max-width: 80%; }
   .featurette-heading {
     font-size: 30px; } }
 
@@ -5850,7 +5854,11 @@ footer {
   .featurette-divider {
     margin: 40px 0; }
   .featurette-heading {
-    font-size: 25px; } }
+    font-size: 25px; }
+  .featurette-image.pull-left {
+    max-width: 100%; }
+  .featurette-image.pull-right {
+    max-width: 100%; } }
 
 @media (max-width: 668px) {
   .headline h1 {

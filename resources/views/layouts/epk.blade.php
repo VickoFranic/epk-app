@@ -14,7 +14,7 @@
 	<hr class="featurette-divider">
 	<!-- First Featurette -->
 	<div class="featurette" id="about">
-		<img class="featurette-image img-circle img-responsive pull-right" src="{{ $band['albums']['data'][1]['photos']['data'][0]['images'][0]['source'] }}">
+		<img class="featurette-image img-rounded img-responsive pull-right" src="{{ $band['albums']['data'][1]['photos']['data'][0]['images'][0]['source'] }}">
 		<h2 class="featurette-heading">Ukratko
 			<span class="text-muted">o nama</span>
 		</h2>
@@ -25,7 +25,7 @@
 
 	<!-- Second Featurette -->
 	<div class="featurette" id="services">
-		<img class="featurette-image img-circle img-responsive pull-left" src="{{ $band['albums']['data'][2]['photos']['data'][0]['images'][0]['source'] }}">
+		<img class="featurette-image img-rounded img-responsive pull-left" src="{{ $band['albums']['data'][2]['photos']['data'][0]['images'][0]['source'] }}">
 		<h2 class="featurette-heading">Naša
 			<span class="text-muted">biografija</span>
 		</h2>
@@ -36,7 +36,7 @@
 
 	<!-- Third Featurette -->
 	<div class="featurette" id="contact">
-		<img class="featurette-image img-circle img-responsive pull-right" src="{{ $band['albums']['data'][3]['photos']['data'][0]['images'][0]['source'] }}">
+		<img class="featurette-image img-rounded img-responsive pull-right" src="{{ $band['albums']['data'][3]['photos']['data'][0]['images'][0]['source'] }}">
 		<h2 class="featurette-heading">Članovi
 			<span class="text-muted">benda</span>
 		</h2>
